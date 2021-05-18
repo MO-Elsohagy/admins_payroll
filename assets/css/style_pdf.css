@@ -1,0 +1,66 @@
+body {
+    direction: rtl;
+    text-align: left;
+    font-family: DejaVu Sans, sans-serif;
+    font-size: 14px;
+}
+
+.title {
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #000;
+}
+.batch, .policies {
+    margin-top: 5px
+}
+
+.policies td {
+    text-align: center;
+    padding-left: 350px;
+}
+
+.table td {
+    border: 1px solid #000;
+    padding: 0.5rem 0.1rem;
+    /* width: 25%; */
+}
+
+/* .table td:nth-child(1),
+.table td:nth-child(3) {
+    width: 30%;
+}
+.table td:nth-child(2),
+.table td:nth-child(4) {
+    width: 20%;
+}
+
+.table td.history:nth-child(1),
+.table td.history:nth-child(3) {
+    width: 25%;
+}
+.table td.history:nth-child(2),
+.table td.history:nth-child(4) {
+    width: 20%;
+}
+.table td.history:nth-child(5) {
+    width: 10%;
+} */
+
+.policies {
+    border: 4px double #333;
+    padding: 0px 25px;
+}
+
+.policies .policy-title {
+    text-align: center;
+    border-bottom: 4px double #333;
+}
+
+.policies .policy-text {
+    /* padding: 15px; */
+    text-align: justify;
+}
